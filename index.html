@@ -190,7 +190,7 @@ h2{ color: #857437; font-size: 20px; font-weight:bold; margin: 15px 0px 5px 0px;
 <img style="float:center; position:absolute; left: 530px" src="covid-dir/epideep-flu.png" alt="forecasting2" width="430" height="280">-->
 <!--<div class="h2new">Description</div>-->
 <p style="text-align:justify">
-The Centers of Disease Control and Prevention is hosting collaborative forecasting projects related to predicting the coronavirus disease spread, and anticipate the mortality and number of hospitalizations caused by the disease across the country. This critically timed project comprises a handful of teams of leading data scientists, epidemiologists, statisticians, and high-performance computing researchers from national laboratories, public universities, public health institutions, and some private sector agents. Our team is using deep learning models to forecast specific targets at the national, regional, state, and local levels. In addition to CDC data, we are incorporating many other real-time datasets such as syndromic surveillance data and point-of-care data from major providers. We combine these datasets with domain knowledge using end-to-end deep learning models to predict targets on a weekly basis. The CDC synthesizes our weekly and monthly predictions with other models to help determine policy and other planning decisions to help communities prepare for and fight the disease. We have extensive experience with disease surveillance - AdityaLab has been leading a team at the CDC FluSight challenge since 2018 (our model EpiDeep had the best performance in the HHS1 region) and have published multiple research papers on incidence prediction at major venues (see <a href="https://www.cc.gatech.edu/~badityap/covid.html#publication">here</a>). 
+The Centers of Disease Control and Prevention is hosting collaborative forecasting projects related to predicting the coronavirus disease spread, and anticipate the mortality and number of hospitalizations caused by the disease across the country. This critically timed project comprises a handful of teams of leading data scientists, epidemiologists, statisticians, and high-performance computing researchers from national laboratories, public universities, public health institutions, and some private sector agents. Our team is using deep learning models to forecast specific targets at the national, regional, state, and local levels. In addition to CDC data, we are incorporating many other real-time datasets such as syndromic surveillance data. We combine these datasets with domain knowledge using end-to-end deep learning models to predict targets on a weekly basis. The CDC synthesizes our weekly and monthly predictions with other models to help determine policy and other planning decisions to help communities prepare for and fight the disease. We have extensive experience with disease surveillance - AdityaLab has been leading a team at the CDC FluSight challenge since 2018 (our model EpiDeep had the best performance in the HHS1 region) and have published multiple research papers on incidence prediction at major venues (see <a href="https://www.cc.gatech.edu/~badityap/covid.html#publication">here</a>). 
  
 </p>
 
@@ -198,7 +198,7 @@ The Centers of Disease Control and Prevention is hosting collaborative forecasti
 <a name="model"></a>
 <h1>Approach</h1>
 <!--<div class="h2new">Results</div>-->
-<p style="text-align:justify"> We use a data-driven approach based on deep learning for forecasting mortality and hospitalizations using syndromic, clinical, demographic, mobility and point-of-care data. The model uses data sources (mobility patterns etc) which implicitly capture the interventions in place. As the model is updated each week, the effect of any new intervention is taken into account via the changes in the input data. 
+<p style="text-align:justify"> We use a data-driven approach based on deep learning for forecasting mortality and hospitalizations using syndromic, clinical, demographic, and mobility data. The model uses data sources (mobility patterns etc) which implicitly capture the interventions in place. As the model is updated each week, the effect of any new intervention is taken into account via the changes in the input data. 
 The learned model is then used to predict mortality and hospitalization at various points in future. To compensate for the effects of noise (in data and initialization), the model is bootstrapped. The model also propagates uncertainties in the data to show the confidence intervals in the forecasts.  </p>
 
 <br>
@@ -242,7 +242,7 @@ Our project is partially supported through (NSF CAREER, <a href="https://computa
         <i>(<a href="https://www.cc.gatech.edu/~badityap/covid.html">AdityaLab</a> PhD joining UIowa from F2020)</i></li>
       </ul>
   </div>
-  <div class="column2">
+<!--   <div class="column2">
     <h2>IQVIA</h2>
     <ul class="b"> 
      <li><a href="https://sites.google.com/view/danicaxiao/home">Danica Xiao</a></li> 
@@ -255,13 +255,11 @@ Our project is partially supported through (NSF CAREER, <a href="https://computa
       
     </ul>
     
-  </div>
+  </div> -->
 </div>
 <!--<img style="float:center; position:absolute: left: auto;" src="covid19-adityalab/aditya-lab-logo.png" alt="aditya-lab-logo" width="180" height="90">-->
 <img style="float:center; position:absolute left: 10px" src="covid19-adityalab/gt-logo-black-gold.png" alt="gt-logo" width="250" height="90">
 <!--<img style="float:center; position:absolute; left: 340px" src="covid19-adityalab/gtri-logo.png" alt="gtri-logo" width="270" height="90">-->
-<img style="float:center; position:absolute; left: 410px" src="covid19-adityalab/uiuc-logo.jpeg" alt="uiuc-logo" width="200" height="90">
-<img style="float:center; position:absolute; left: 730px" src="covid19-adityalab/iqvia-logo.png" alt="iqvia-logo" width="220" height="50">
 
 
 <br>
